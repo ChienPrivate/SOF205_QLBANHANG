@@ -1,0 +1,2 @@
+Chọn file QLBH.msi để bắt đầu cài đặt
+Trong trường hợp máy bạn chưa cài đặt LocalDB hãy chạy file SqlLocalDB.mse
