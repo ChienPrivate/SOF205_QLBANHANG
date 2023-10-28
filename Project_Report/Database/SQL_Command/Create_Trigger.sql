@@ -6,7 +6,7 @@
 
 -- Bảng Nhân Viên
 
-USE QLBanHang
+USE QuanLyBanHang
 GO
 
 -- 1. Xóa nhân viên và các cột khóa ngoại tham chiếu đến bảng nhân viên

@@ -77,10 +77,18 @@ namespace GUI_QLBanHang
                 if (result)
                 {
                     MessageBox.Show("đổi mật khẩu thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtMatKhauCu.Text = string.Empty;
+                    txtMatKhauMoi.Text = string.Empty;
+                    txtXacNhanMatKhau.Text = string.Empty;
+                    panelDoiMatKhau.Visible = false;
+                    panelThongTinTaiKhoan.Visible = true;
                 }
                 else
                 {
                     MessageBox.Show("đổi mật khẩu thất bại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtMatKhauCu.Text = string.Empty;
+                    txtMatKhauMoi.Text = string.Empty;
+                    txtXacNhanMatKhau.Text = string.Empty;
                 }
             }
         }

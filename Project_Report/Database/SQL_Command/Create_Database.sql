@@ -6,10 +6,10 @@
 USE master
 GO
 
-CREATE DATABASE QLBanHang
+CREATE DATABASE QuanLyBanHang
 GO
 
-USE QLBanHang
+USE QuanLyBanHang
 GO
 
 -- Câu lệnh tạo bảng

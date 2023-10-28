@@ -7,7 +7,7 @@
 -- 1. Bảng nhân viên (tblNhanVien) 
 
 -- 1.1 Tính năng đăng nhập
-USE QLBanHang
+USE QuanLyBanHang
 GO
 
 CREATE OR ALTER PROC DangNhap (@email VARCHAR(50), @matkhau VARBINARY(64))
